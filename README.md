@@ -1,2 +1,2 @@
 # FizzBuzz
-FizzBuzz with Test-Driven Development (TDD)
+FizzBuzz project with Test-Driven Development (TDD).
