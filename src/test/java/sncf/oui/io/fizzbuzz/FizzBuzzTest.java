@@ -16,10 +16,10 @@ class FizzBuzzTest {
 
     @BeforeEach
     void setup() {
-        HashMap<Integer,String> map = new HashMap<>();
-        map.put(3,"Fizz");
-        map.put(5,"Buzz");
-        map.put(7,"Bazz");
+        HashMap<Integer, String> map = new HashMap<>();
+        map.put(3, "Fizz");
+        map.put(5, "Buzz");
+        map.put(7, "Bazz");
         this.fizzBuzz = new FizzBuzz(map);
     }
 
