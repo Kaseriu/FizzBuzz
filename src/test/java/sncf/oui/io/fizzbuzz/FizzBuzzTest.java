@@ -26,7 +26,7 @@ class FizzBuzzTest {
     @ParameterizedTest
     @CsvSource({
             "1,1",
-            "2,2",
+            "2,3",
             "4,4"
     })
     void should_map_value_to_string_given_a_value_not_divisible_by_3_or_5(final int value, final String expectedResponse) {
